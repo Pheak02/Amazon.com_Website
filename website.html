@@ -1,15 +1,20 @@
 <style>
-    button{
+    .red-button{
         background-color: red;
         color: white;
         border: none;
     }
+    .pink-button{
+        background-color: yellow;
+        color: rgb(28, 24, 24);
+        border: none;
+    }
 </style>
 
-<button title="tooltips"> <!-- html attribute -->
+<button title="tooltips" class="red-button"> <!-- html attribute -->
     hello
 </button>
 <p>paragraph of 
-    <button>hello</button>
+    <button class="pink-button">hello</button>
     text
 </p>
