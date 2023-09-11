@@ -1,20 +1,35 @@
-<style>
-    .red-button{
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .red-button {
         background-color: red;
         color: white;
         border: none;
-    }
-    .pink-button{
+      }
+      .pink-button {
         background-color: yellow;
         color: rgb(28, 24, 24);
         border: none;
-    }
-</style>
+      }
+    </style>
+  </head>
+  <body>
+    <button title="tooltips" class="red-button" onclick="alert('testing userTap!');">
+      <!-- html attribute -->
+      hello
+    </button>
+    <p>
+      paragraph of
+      <button class="pink-button">hello</button>
+      text
+    </p>
 
-<button title="tooltips" class="red-button"> <!-- html attribute -->
-    hello
-</button>
-<p>paragraph of 
-    <button class="pink-button">hello</button>
-    text
-</p>
+    <script>
+        alert('hello');
+    </script>
+  </body>
+</html>
